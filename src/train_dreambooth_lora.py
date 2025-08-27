@@ -124,8 +124,8 @@ def train(args):
 
             # VAE encode images to latents
             with torch.no_grad():
-                inst_latents = pipeline.vae.encode(inst_imgs).latent_dist.sample() * 0.18215
-                class_latents = pipeline.vae.encode(class_imgs).latent_dist.sample() * 0.18215
+                inst_latents = pipeline.vae.encode(inst_imgs).latent_dist.sample() * 0.18215 # Scales the latent vector by 0.18215 so it’s in the correct range for the diffusion model.
+                class_latents = pipeline.vae.encode(class_imgs).latent_dist.sample() * 0.18215 
 
             # Sample noise & timesteps
             noise_inst = torch.randn_like(inst_latents)
