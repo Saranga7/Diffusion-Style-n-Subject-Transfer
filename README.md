@@ -34,7 +34,10 @@ bash scripts/run_dreambooth_lora.sh > dreambooth_ft_lora.log 2>&1
 
 1. Prompt: "A photo of \<vobj> in space"
 
-Reference Style Image: ![Diagram](style_refs/rayonism/images.jpeg)
+Reference Style Image: 
+![Diagram](style_refs/rayonism/images.jpeg)
+
+(the first image is the output of Stage 1 (text-to-image), the other 3 are the output images of that image in the reference art style)
 
 Subject and Style transferred image:
 
@@ -43,4 +46,8 @@ Subject and Style transferred image:
 
 2. Prompt: "A photo of \<vobj> in a natural setting, waterfall in the background"
 
-Reference Style Image: ![Diagram](style_refs/vangogh/The Church at Auvers.jpg)
+Reference Style Image: ![Diagram](assets/style_vangogh_church.jpg)
+
+Subject and Style transferred image:
+
+![Diagram](assets/Dali_natural_setting.png)
