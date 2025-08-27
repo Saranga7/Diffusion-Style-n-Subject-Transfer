@@ -40,13 +40,14 @@ Reference Style Image:
 (the first image is the output of Stage 1 (text-to-image), the other 3 are the output images of that image in the reference art style)
 
 Subject and Style transferred image:
-
 ![Diagram](assets/Dali_in_space.png)
 
 
 2. Prompt: "A photo of \<vobj> in a natural setting, waterfall in the background"
 
-Reference Style Image: ![Diagram](assets/style_vangogh_church.jpg)
+Reference Style Image: 
+<img src="assets/style_vangogh_church.jpg" alt="Diagram" width="300" height="200"/>
+
 
 Subject and Style transferred image:
 
