@@ -46,7 +46,7 @@ Subject and Style transferred image:
 2. Prompt: "A photo of \<vobj> in a natural setting, waterfall in the background"
 
 Reference Style Image: 
-<img src="assets/style_vangogh_church.jpg" alt="Diagram" width="300" height="200"/>
+<img src="assets/style_vangogh_church.jpg" alt="Diagram" width="300" height="300"/>
 
 
 Subject and Style transferred image:
