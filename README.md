@@ -11,10 +11,10 @@ Implement a pipeline that can take both a set of subject images and a different 
 
 1. Create virtual environment and install required packages from requirements.txt
 
-2. Download images for class images from Kaggle (since my pet is a dog, I am using a random dataset of dog images)
+2. Generate class images
 
 ```
-python class_images_download.py
+bash scripts/generate_class_images.sh
 ```
 
 Then copy it to the root directory.
