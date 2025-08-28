@@ -44,7 +44,7 @@ def main():
     # prompt = "A photo of <vobj> in a natural setting, waterfall in the background"
     stage_a = pipeline(prompt = args['prompt'], 
                 num_inference_steps = args['infer_steps'], 
-                strength = args['strength']).images[0]
+                guidance_scale = args['guidance_scale']).images[0]
     stage_a.save("./stageA_img.png")
 
 

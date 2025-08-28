@@ -4,7 +4,7 @@ export PYTHONPATH="$PYTHONPATH:$pwd"
 
 LORA_MODEL="dreambooth_lora_ckpt"
 STRENGTH=0.5
-PROMPT="A photo of <vobj> wearing a suit and tie"
+PROMPT="A photo of <vobj> dog wearing a suit and tie"
 
 python src/two_stage_infer.py \
 --lora_path "$LORA_MODEL/" \
