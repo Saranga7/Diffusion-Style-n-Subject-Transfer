@@ -17,8 +17,6 @@ Implement a pipeline that can take both a set of subject images and a different 
 bash scripts/generate_class_images.sh
 ```
 
-Then copy it to the root directory.
-
 3. Run Dreambooth LoRA fine-tuning with images of my pet dog.
 
 ```

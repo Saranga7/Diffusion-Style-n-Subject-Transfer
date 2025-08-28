@@ -1,4 +1,3 @@
-# two_stage_pipeline.py
 import os
 import torch
 from helper import load_pipeline
@@ -28,8 +27,8 @@ def main():
 
     # load pipeline with subject LoRAs
 
-    unet_lora_path = os.path.join(args['lora_path'], "unet_lora_epoch1")
-    text_lora_path = os.path.join(args['lora_path'], "text_lora_epoch1")
+    unet_lora_path = os.path.join(args['lora_path'], "unet_lora_epoch7")
+    text_lora_path = os.path.join(args['lora_path'], "text_lora_epoch7")
 
     pipeline = load_pipeline(
         pipeline_type='txt2img',

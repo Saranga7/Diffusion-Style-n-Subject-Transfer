@@ -1,4 +1,3 @@
-# generate_class_images.py
 import argparse
 from pathlib import Path
 import torch

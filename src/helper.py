@@ -1,4 +1,3 @@
-# helpers.py (put somewhere you can import)
 import torch
 from diffusers import StableDiffusionPipeline, StableDiffusionControlNetPipeline, ControlNetModel
 from transformers import CLIPTokenizer, CLIPTextModel
